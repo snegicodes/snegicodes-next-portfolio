@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3">
-            <div className="md:py-5 md:block">
+            <div className="md:py-2 md:block">
               <h2 className="font-bold text-2xl">snegicodes</h2>
             </div>
             <div className="md:hidden">
