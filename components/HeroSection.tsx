@@ -41,6 +41,14 @@ const HeroSection = () => {
           >
             Projects
           </Link>
+          <a
+            href="https://drive.google.com/file/d/1lj_uzU0WTi0oLZK8pj78Jc48cjQP4jla/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="text-teal-600 font-semibold ml-3 px-6 py-3 border-teal-600 rounded shadow hover:bg-teal-600 hover:text-white"
+          >
+            Resume
+          </a>
         </div>
       </div>
 
