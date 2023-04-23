@@ -21,7 +21,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Projects",
-    page: "project",
+    page: "projects",
   },
 ];
 
@@ -35,7 +35,17 @@ const Navbar = () => {
         <div>
           <div className="flex items-center justify-between py-3">
             <div className="md:py-2 md:block">
-              <h2 className="font-bold text-2xl">snegicodes</h2>
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <h2 className="font-bold cursor-pointer text-2xl">
+                  snegicodes
+                </h2>
+              </Link>
             </div>
             <div className="md:hidden">
               <button onClick={() => setNavbar(!navbar)}>
@@ -57,7 +67,7 @@ const Navbar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                      "block cursor-pointer lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
                     }
                     activeClass="active"
                     spy={true}
