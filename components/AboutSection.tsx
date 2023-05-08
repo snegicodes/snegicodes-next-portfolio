@@ -49,7 +49,7 @@ const AboutSection = () => {
               I am a final year undergrad pursuing{" "}
               <span className="font-bold">B.Tech</span> in{" "}
               <span className="font-bold">Computer Science</span> from AKTU
-              University and I am currently working in a{" "}
+              University and I have worked in a{" "}
               <span className="font-bold">B2B SaaS Startup</span> based in USA,{" "}
               <span className="font-bold  text-teal-500">JobTwine</span> as a{" "}
               <span className="font-bold  text-teal-500">
