@@ -82,14 +82,20 @@ const Navbar = () => {
               })}
               {currentTheme === "dark" ? (
                 <button
-                  onClick={() => setTheme("light")}
+                  onClick={() => {
+                    console.log(theme, "-> ", currentTheme);
+                    setTheme("light");
+                  }}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
                   <RiSunLine size={20} color="black" />
                 </button>
               ) : (
                 <button
-                  onClick={() => setTheme("dark")}
+                  onClick={() => {
+                    console.log(theme, "-> ", currentTheme);
+                    setTheme("dark");
+                  }}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
                   <RiMoonFill size={20} />

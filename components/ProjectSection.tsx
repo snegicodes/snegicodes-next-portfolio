@@ -14,6 +14,14 @@ const projects = [
     link: "https://snegigym.netlify.app/",
   },
   {
+    name: "KingKart Shopping Cart",
+    description:
+      "A minimal shopping cart implementation in React using Faker Js for dummy data and Context API + useReducer Hook for State Management. ",
+    image: "/10.png",
+    github: "https://github.com/snegicodes/KingKart-App",
+    link: "https://snegicodeskingkart.netlify.app/",
+  },
+  {
     name: "CodeIT QR",
     description:
       "A simple web app that helps you generate and download QR code to your given URLs. ",
