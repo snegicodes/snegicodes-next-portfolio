@@ -6,6 +6,22 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Netflix GPT",
+    description:
+      "Netflix GPT is a versatile movie listing app powered by OpenAI. Find your favorite movies effortlessly with natural language prompts across all genres.",
+    image: "/11.png",
+    github: "https://github.com/snegicodes/Netflix-GPT",
+    link: "https://snegicodes-netflix.vercel.app/",
+  },
+  {
+    name: "Abstract AI",
+    description:
+      "Abstract AI lets you quickly extract key information and main points from lengthy articles using AI, saving you time and effort in processing vast amounts of text.",
+    image: "/12.png",
+    github: "https://github.com/snegicodes/Abstract-AI",
+    link: "https://abstract-ai.vercel.app/",
+  },
+  {
     name: "Make Me Fit",
     description:
       "MakeMeFit is a Gym Assistance MERN stack app which lets you add and store your workouts along with the amount of weight and number of reps.",
